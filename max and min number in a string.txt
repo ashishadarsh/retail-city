@@ -1,0 +1,69 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        int n;
+        System.out.println("Enter the length of array ");
+        n=scanner.nextInt();
+        int [] arr = getarr(n);
+        int max =getMax(arr);
+        System.out.println("Maximum value is "+max);
+        int min =getMin(arr);
+        System.out.println("Minimum value is "+min);
+        
+        // method 2
+        
+        /*Scanner console = new Scanner(System.in);
+        int number;
+        int max= Integer.MIN_VALUE;
+        int min= Integer.MAX_VALUE;
+        
+        char c;
+        do{
+            System.out.println("Enter the number ");
+            number=console.nextInt();
+             if(number>max){
+                 max=number;
+             }
+            if(number<min){
+                min=number;
+            }
+            System.out.println("Do you want to enter next number y.n? ");
+            c=console.next().charAt(0);
+        }
+        while(c=='y' || c=='Y');
+        System.out.println("Maximum number: "+max);
+        System.out.println("Minimum number: "+min);*/
+    }
+    
+    
+    public static int[] getarr(int number){
+        System.out.println("Enter "+number+ " integer values \r");
+        int[] values = new int[number];
+        for(int i=0;i<number;i++){
+            values[i]=scanner.nextInt();
+        }
+        return values;
+    }
+    public static int getMax(int[] arr){
+        int maxValue = arr[0];
+        for(int i=1;i<arr.length;i++){
+            if(arr[i]>maxValue){
+                maxValue=arr[i];
+            }
+        }
+        return maxValue;
+    }
+    public static int getMin(int[] arr){
+        int minValue = arr[0];
+        for(int i=1;i<arr.length;i++){
+            if(arr[i]<minValue){
+                minValue=arr[i];
+            }
+        }
+        return minValue;
+    }
+}

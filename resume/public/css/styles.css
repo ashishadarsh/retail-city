@@ -1,0 +1,132 @@
+body{
+  background-color: #d5e2f7;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c ;
+}
+.cimg{
+  height: 300px;
+  width:350px;
+}
+.icons{
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.homeImg{
+  border-radius: 50%;
+
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  right: 20px;
+  top:70px;
+}
+.mainh1{
+  position: absolute;
+  top: 110px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+}
+.mainh3{
+  position: absolute;
+  top: 230px;
+}
+.mainp{
+  position: absolute;
+  top: 270px;
+}
+#res{
+  margin-top: 20px;
+  margin-bottom: 75px;
+  margin-left: 100px;
+}
+.resu{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#project{
+  margin-top: 20px;
+  margin-bottom: 75px;
+  margin-left: 100px;
+}
+#sc{
+  margin-top: 20px;
+  margin-bottom: 75px;
+  margin-left: 100px;
+}
+.proj{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.skill{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.Certifications{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  position: relative;
+}
+.button1{
+
+  border-radius: 50%;
+  background-color: #fac35c;
+  position: absolute;
+  top: 350px;
+}
+.button2{
+
+  border-radius: 50%;
+  background-color: #fa645c;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+.button3{
+
+  border-radius: 50%;
+  background-color: #5cfaf2;
+  position: absolute;
+  top: 350px;
+  left: 280px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+  bottom: 0;
+
+	text-align: center;
+	width: 100%;
+	height: 100px;
+
+}
+
+.footer p {
+	margin-top: 18px;
+	font-size: 20px;
+
+}
